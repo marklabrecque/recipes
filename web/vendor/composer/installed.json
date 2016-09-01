@@ -4303,7 +4303,7 @@
         "dist": {
             "type": "zip",
             "url": "https://ftp.drupal.org/files/projects/admin_toolbar-8.x-1.17.zip",
-            "reference": null,
+            "reference": "8.x-1.17",
             "shasum": "030dbb0cf65ae74e8a9c54d0fb2257112c2b16a5"
         },
         "require": {
@@ -4351,6 +4351,53 @@
         "support": {
             "source": "http://cgit.drupalcode.org/admin_toolbar",
             "issues": "https://www.drupal.org/project/issues/admin_toolbar"
+        }
+    },
+    {
+        "name": "drupal/jsonapi",
+        "version": "dev-1.x",
+        "version_normalized": "dev-1.x",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/jsonapi",
+            "reference": "c7ef254901b49ae28e033c02f6206d98c15adc24"
+        },
+        "require": {
+            "drupal/core": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.x-dev",
+                "datestamp": "1471674839"
+            }
+        },
+        "installation-source": "source",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "dawehner",
+                "homepage": "https://www.drupal.org/user/99340"
+            },
+            {
+                "name": "e0ipso",
+                "homepage": "https://www.drupal.org/user/550110"
+            },
+            {
+                "name": "gabesullice",
+                "homepage": "https://www.drupal.org/user/2287430"
+            }
+        ],
+        "description": "Provides a JSON API format for the REST resources.",
+        "homepage": "https://www.drupal.org/project/jsonapi",
+        "support": {
+            "source": "http://cgit.drupalcode.org/jsonapi"
         }
     }
 ]
