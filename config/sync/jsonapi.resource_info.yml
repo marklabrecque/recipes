@@ -1,0 +1,5 @@
+prefix: api
+schema_prefix: schema
+id_field: uuid
+_core:
+  default_config_hash: 7c2IH3meKe9JAwmp7znBGv9LYAhG18lglAvlz8l8Bz0
