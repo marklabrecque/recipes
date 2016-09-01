@@ -1,0 +1,14 @@
+uuid: 743a899b-4701-4c9a-949f-6ecd58188f6d
+name: Recipes
+mail: mark.labrecque@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

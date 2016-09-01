@@ -1,0 +1,12 @@
+uuid: 31ec2c9b-ad6e-4a7f-a68a-b1d1b4fc831f
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: c4zaT5cyPxuTXI6JOWt3qRtMvICT9tHB6d9a5VG-CmQ
+id: feedback
+label: 'Website feedback'
+recipients:
+  - mark.labrecque@gmail.com
+reply: ''
+weight: 0
