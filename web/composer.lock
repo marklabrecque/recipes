@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7c05979e6d1e037a971f9a65afc6479f",
-    "content-hash": "ecba18f0751544debf2c18c8582fd13b",
+    "hash": "25183ab4a432dcbb372f544aa79b4344",
+    "content-hash": "f0238aada2af0b756663a28298d221ed",
     "packages": [
         {
             "name": "composer/installers",
@@ -622,6 +622,44 @@
             }
         },
         {
+            "name": "drupal/image_url_formatter",
+            "version": "dev-1.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/image_url_formatter",
+                "reference": "e9b3b4de22140de73b96093d0f19629aa930d9fe"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-alpha1+3-dev",
+                    "datestamp": "1455964439"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "g089h515r806",
+                    "homepage": "https://www.drupal.org/user/174740"
+                }
+            ],
+            "description": "Add an URL formatter for image field.",
+            "homepage": "https://www.drupal.org/project/image_url_formatter",
+            "support": {
+                "source": "http://cgit.drupalcode.org/image_url_formatter"
+            },
+            "time": "2016-02-20 10:31:15"
+        },
+        {
             "name": "drupal/jsonapi",
             "version": "dev-1.x",
             "source": {
@@ -664,8 +702,7 @@
             "homepage": "https://www.drupal.org/project/jsonapi",
             "support": {
                 "source": "http://cgit.drupalcode.org/jsonapi"
-            },
-            "time": "2016-08-20 06:30:46"
+            }
         },
         {
             "name": "easyrdf/easyrdf",
@@ -4265,7 +4302,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "drupal/jsonapi": 20
+        "drupal/jsonapi": 20,
+        "drupal/image_url_formatter": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
